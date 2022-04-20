@@ -74,7 +74,7 @@ header, footer {
 }
 
 .about-me {
-    height: 300px;
+    height: 800px;
 }
 
 h2 {
@@ -103,6 +103,13 @@ h2 {
     height: 100%;
 }
 
+.about-me .inside-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
 .work {
     height: 500px;
 }
@@ -112,6 +119,111 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 20px;
+}
+
+.top-left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid  rgb(30, 35, 38);
+    transition: 1s;
+}
+
+.linknew {
+    background-image: url("../images/Elden-Ring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew2 {
+    background-image: url("../images/slaythespire.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew3 {
+    background-image: url("../images/fahrenheit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew4 {
+    background-image: url("../images/daftpunk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew5 {
+    background-image: url("../images/alien.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew6 {
+    background-image: url("../images/jojo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew7 {
+    background-image: url("../images/food.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew8 {
+    background-image: url("../images/nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.linknew9 {
+    background-image: url("../images/art.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
 }
 
 .grid-item1 {
