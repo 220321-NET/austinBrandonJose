@@ -56,23 +56,6 @@ header, footer {
     z-index: 1;
 }
 
-.profile-img {
-    background-image: url("../images/brandon-images/Me.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 200px; 
-    border: solid 5px;
-    min-width: 300px;
-    min-height: 300px;
-    z-index: 2;
-    margin: 0 10px 10px 0;
-}
-
-.profile-img:hover {
-    background-image: url("../images/brandon-images/vacation.jpg");
-    transition: 10s;
-}
-
 .about-me {
     height: 800px;
 }
